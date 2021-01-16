@@ -5,7 +5,7 @@ def get_user_input():
         user_input = input('Write here: ')
         user_input = user_input.lower()
         list_of_words.append(user_input)
-        
+
 
     print(list_of_words)
 
