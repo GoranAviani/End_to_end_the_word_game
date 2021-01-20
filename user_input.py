@@ -8,8 +8,6 @@ def get_user_input():
         user_input = user_input.lower()
         print('You have written {}' .format(user_input))
 
-
-
         status, list_of_words = word_checker(list_of_words, user_input)
         if status == 'mistake':
             print('whoops, you made a mistake!')
