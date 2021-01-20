@@ -12,6 +12,7 @@ def get_user_input():
 
         status, list_of_words = word_checker(list_of_words, user_input)
         if status == 'mistake':
+            print('whoops, you made a mistake!')
             break
         elif status == 'ok':
             print('Bravo!')

@@ -9,7 +9,6 @@ def word_checker(list_of_words, user_input):
 
     if len(list_of_words) > 1:
         if user_input[0] != last_letter:
-            print('whoops, you made a mistake!')
             return 'mistake', list_of_words
 
 
